@@ -18,6 +18,7 @@ specifiers:
   eslint-plugin-import: 2.23.2
   eslint-plugin-prettier: 3.4.0
   husky: 6.0.0
+  is-ci: ^3.0.0
   jest: 26.6.3
   jose: ^3.12.1
   lint-staged: 11.0.0
@@ -49,6 +50,7 @@ devDependencies:
   eslint-plugin-import: 2.23.2_eslint@7.26.0
   eslint-plugin-prettier: 3.4.0_39fed7ca8f33f3403e39ca7e7aa90c0f
   husky: 6.0.0
+  is-ci: 3.0.0
   jest: 26.6.3
   lint-staged: 11.0.0
   prettier: 2.3.0
@@ -1580,6 +1582,10 @@ packages:
 
   /ci-info/2.0.0:
     resolution: {integrity: sha512-5tK7EtrZ0N+OLFMthtqOj4fI2Jeb88C4CAZPu25LDVUgXJ0A3Js4PMGqrn0JU1W0Mh1/Z8wZzYPxqUrXeBboCQ==}
+    dev: true
+
+  /ci-info/3.1.1:
+    resolution: {integrity: sha512-kdRWLBIJwdsYJWYJFtAFFYxybguqeF91qpZaggjG5Nf8QKdizFG2hjqvaTXbxFIcYbSaD74KpAXv6BSm17DHEQ==}
     dev: true
 
   /cjs-module-lexer/0.6.0:
@@ -3287,6 +3293,13 @@ packages:
     hasBin: true
     dependencies:
       ci-info: 2.0.0
+    dev: true
+
+  /is-ci/3.0.0:
+    resolution: {integrity: sha512-kDXyttuLeslKAHYL/K28F2YkM3x5jvFPEw3yXbRptXydjD9rpLEz+C5K5iutY9ZiUu6AP41JdvRQwF4Iqs4ZCQ==}
+    hasBin: true
+    dependencies:
+      ci-info: 3.1.1
     dev: true
 
   /is-core-module/2.4.0:
