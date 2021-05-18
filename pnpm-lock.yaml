@@ -4,9 +4,9 @@ specifiers:
   '@commitlint/cli': 12.1.4
   '@commitlint/config-conventional': 12.1.4
   '@golevelup/ts-jest': 0.3.1
-  '@nestjs/common': 7.6.15
-  '@nestjs/core': 7.6.15
-  '@nestjs/testing': 7.6.15
+  '@nestjs/common': 7.6.17
+  '@nestjs/core': 7.6.17
+  '@nestjs/testing': 7.6.17
   '@types/jest': 26.0.23
   '@typescript-eslint/eslint-plugin': 4.24.0
   '@typescript-eslint/parser': 4.24.0
@@ -35,9 +35,9 @@ devDependencies:
   '@commitlint/cli': 12.1.4
   '@commitlint/config-conventional': 12.1.4
   '@golevelup/ts-jest': 0.3.1
-  '@nestjs/common': 7.6.15_8e6d4b7501d9d25f42cbf34563d4f5bc
-  '@nestjs/core': 7.6.15_2ef5148cf119d2e6a2825daac1d64a18
-  '@nestjs/testing': 7.6.15_a5e284bf185e3b13e505d42d771fb371
+  '@nestjs/common': 7.6.17_8e6d4b7501d9d25f42cbf34563d4f5bc
+  '@nestjs/core': 7.6.17_0ff807c7e0c0946ae4ae01be7385e726
+  '@nestjs/testing': 7.6.17_6b1007062d3a29d00cb5e4fdd9b5f494
   '@types/jest': 26.0.23
   '@typescript-eslint/eslint-plugin': 4.24.0_59c9e933fd1a489015de5df6809ac2f2
   '@typescript-eslint/parser': 4.24.0_eslint@7.26.0+typescript@4.2.4
@@ -738,8 +738,8 @@ packages:
       chalk: 4.1.1
     dev: true
 
-  /@nestjs/common/7.6.15_8e6d4b7501d9d25f42cbf34563d4f5bc:
-    resolution: {integrity: sha512-H/3Nk7M02Fc4YN9St05i34gZKVuzE54gd5eXAX6WwisqU5fQ00kss1pYGbltjb2QGu3A/fpO1MdYEwOA18Z/VQ==}
+  /@nestjs/common/7.6.17_8e6d4b7501d9d25f42cbf34563d4f5bc:
+    resolution: {integrity: sha512-RHvD32FxfV7yDWX9GPmn0ZSv7ka5kLeVamU5ZpoXSTUjkGqWFt3MTyIP+HUQD2778kDqT+CgEtVJ1fxDG5Oh9g==}
     peerDependencies:
       cache-manager: '*'
       class-transformer: '*'
@@ -758,14 +758,14 @@ packages:
       iterare: 1.2.1
       reflect-metadata: 0.1.13
       rxjs: 6.6.7
-      tslib: 2.1.0
+      tslib: 2.2.0
       uuid: 8.3.2
     transitivePeerDependencies:
       - debug
     dev: true
 
-  /@nestjs/core/7.6.15_2ef5148cf119d2e6a2825daac1d64a18:
-    resolution: {integrity: sha512-8CrL/iY5Gt4HJfyDg1PgPalhT7tVRT643f2mGMgPum/P/e94uuwEYBNIgsMEVOJUrOAWZkNIN60uEf8JkH6GWw==}
+  /@nestjs/core/7.6.17_0ff807c7e0c0946ae4ae01be7385e726:
+    resolution: {integrity: sha512-dH7PGDj1dvBfOYgxJlxh54vdnFFSLst7+Spg3E7Jpo+n11Ht5Ee5mTjSzXieRVfFba/sI3NIHF/N1stn36bU9w==}
     requiresBuild: true
     peerDependencies:
       '@nestjs/common': ^7.0.0
@@ -782,7 +782,7 @@ packages:
       '@nestjs/websockets':
         optional: true
     dependencies:
-      '@nestjs/common': 7.6.15_8e6d4b7501d9d25f42cbf34563d4f5bc
+      '@nestjs/common': 7.6.17_8e6d4b7501d9d25f42cbf34563d4f5bc
       '@nuxtjs/opencollective': 0.3.2
       fast-safe-stringify: 2.0.7
       iterare: 1.2.1
@@ -790,12 +790,12 @@ packages:
       path-to-regexp: 3.2.0
       reflect-metadata: 0.1.13
       rxjs: 6.6.7
-      tslib: 2.1.0
+      tslib: 2.2.0
       uuid: 8.3.2
     dev: true
 
-  /@nestjs/testing/7.6.15_a5e284bf185e3b13e505d42d771fb371:
-    resolution: {integrity: sha512-AWr8stnRoS0yCU/EotAJKveYXm1XSB4ZT+ReqFDXhPyqC1ppOfU+zZuCjQlQHorMzidsVHsAstK5/rUsXnrZUQ==}
+  /@nestjs/testing/7.6.17_6b1007062d3a29d00cb5e4fdd9b5f494:
+    resolution: {integrity: sha512-wWImNvfRapCCtLXMsxCs1Ax2Uj/qSytCnolSEXL7LnH80exwHRmBeLtTfGxArsv9Y1NHr24NarfN6H0QxysZ3g==}
     peerDependencies:
       '@nestjs/common': ^7.0.0
       '@nestjs/core': ^7.0.0
@@ -808,9 +808,9 @@ packages:
         optional: true
     dependencies:
       optional: 0.1.4
-      '@nestjs/common': 7.6.15_8e6d4b7501d9d25f42cbf34563d4f5bc
-      '@nestjs/core': 7.6.15_2ef5148cf119d2e6a2825daac1d64a18
-      tslib: 2.1.0
+      '@nestjs/common': 7.6.17_8e6d4b7501d9d25f42cbf34563d4f5bc
+      '@nestjs/core': 7.6.17_0ff807c7e0c0946ae4ae01be7385e726
+      tslib: 2.2.0
     dev: true
 
   /@nodelib/fs.scandir/2.1.4:
@@ -6051,8 +6051,8 @@ packages:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
     dev: true
 
-  /tslib/2.1.0:
-    resolution: {integrity: sha512-hcVC3wYEziELGGmEEXue7D75zbwIIVUMWAVbHItGPx0ziyXxrOMQx4rQEVEV45Ut/1IotuEvwqPopzIOkDMf0A==}
+  /tslib/2.2.0:
+    resolution: {integrity: sha512-gS9GVHRU+RGn5KQM2rllAlR3dU6m7AcpJKdtH8gFvQiC4Otgk98XnmMU+nZenHt/+VhnBPWwgrJsyrdcw6i23w==}
     dev: true
 
   /tsutils/3.21.0_typescript@4.2.4:
