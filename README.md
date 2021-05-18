@@ -2,7 +2,7 @@
   <a href="https://github.com/SeanLatimer/nestjs-jose/actions/workflows/ci.yml">
     <img
       alt="GitHub Workflow Status (CI Push)"
-      src="https://img.shields.io/github/workflow/status/seanlatimer/nestjs-jose/ci?event=push&style=for-the-badge"
+      src="https://img.shields.io/github/workflow/status/seanlatimer/nestjs-jose/CI?event=push&style=for-the-badge"
     />
   </a>
   <br />
