@@ -38,7 +38,7 @@ jobs:
       - name: Lint
         run: pnpm lint
       - name: Unit tests
-        run: pnpm test:cov --passWithNoTests # TODO: remove --passWithNoTests when tests are in place
+        run: pnpm test:cov -- --passWithNoTests # TODO: remove --passWithNoTests when tests are in place
 
   analyze:
     name: Analyze
