@@ -22,7 +22,7 @@ specifiers:
   jest: 27.0.5
   jose: ^3.12.1
   lint-staged: 11.0.0
-  prettier: 2.3.1
+  prettier: 2.3.2
   reflect-metadata: 0.1.13
   rimraf: 3.0.2
   rxjs: 6.6.7
@@ -48,12 +48,12 @@ devDependencies:
   eslint: 7.29.0
   eslint-config-prettier: 8.3.0_eslint@7.29.0
   eslint-plugin-import: 2.23.4_eslint@7.29.0
-  eslint-plugin-prettier: 3.4.0_de2986b0c29d2faa795004f5443c76d1
+  eslint-plugin-prettier: 3.4.0_4e72879372edbffcbdaf0fa17b22c203
   husky: 6.0.0
   is-ci: 3.0.0
   jest: 27.0.5
   lint-staged: 11.0.0
-  prettier: 2.3.1
+  prettier: 2.3.2
   reflect-metadata: 0.1.13
   rimraf: 3.0.2
   rxjs: 6.6.7
@@ -2157,7 +2157,7 @@ packages:
       tsconfig-paths: 3.9.0
     dev: true
 
-  /eslint-plugin-prettier/3.4.0_de2986b0c29d2faa795004f5443c76d1:
+  /eslint-plugin-prettier/3.4.0_4e72879372edbffcbdaf0fa17b22c203:
     resolution: {integrity: sha512-UDK6rJT6INSfcOo545jiaOwB701uAIt2/dR7WnFQoGCVl1/EMqdANBmwUaqqQ45aXprsTGzSa39LI1PyuRBxxw==}
     engines: {node: '>=6.0.0'}
     peerDependencies:
@@ -2170,7 +2170,7 @@ packages:
     dependencies:
       eslint: 7.29.0
       eslint-config-prettier: 8.3.0_eslint@7.29.0
-      prettier: 2.3.1
+      prettier: 2.3.2
       prettier-linter-helpers: 1.0.0
     dev: true
 
@@ -4458,8 +4458,8 @@ packages:
       fast-diff: 1.2.0
     dev: true
 
-  /prettier/2.3.1:
-    resolution: {integrity: sha512-p+vNbgpLjif/+D+DwAZAbndtRrR0md0MwfmOVN9N+2RgyACMT+7tfaRnT+WDPkqnuVwleyuBIG2XBxKDme3hPA==}
+  /prettier/2.3.2:
+    resolution: {integrity: sha512-lnJzDfJ66zkMy58OL5/NY5zp70S7Nz6KqcKkXYzn2tMVrNxvbqaBpg7H3qHaLxCJ5lNMsGuM8+ohS7cZrthdLQ==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
