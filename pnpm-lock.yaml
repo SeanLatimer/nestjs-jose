@@ -15,7 +15,7 @@ specifiers:
   cz-conventional-changelog: 3.3.0
   eslint: 8.0.0
   eslint-config-prettier: 8.3.0
-  eslint-plugin-import: 2.25.1
+  eslint-plugin-import: 2.25.2
   eslint-plugin-prettier: 4.0.0
   husky: 7.0.2
   is-ci: 3.0.0
@@ -47,7 +47,7 @@ devDependencies:
   cz-conventional-changelog: 3.3.0
   eslint: 8.0.0
   eslint-config-prettier: 8.3.0_eslint@8.0.0
-  eslint-plugin-import: 2.25.1_eslint@8.0.0
+  eslint-plugin-import: 2.25.2_eslint@8.0.0
   eslint-plugin-prettier: 4.0.0_d9a06a67ccd5236c5645569c7624c2c9
   husky: 7.0.2
   is-ci: 3.0.0
@@ -2197,16 +2197,17 @@ packages:
       resolve: 1.20.0
     dev: true
 
-  /eslint-module-utils/2.6.2:
-    resolution: {integrity: sha512-QG8pcgThYOuqxupd06oYTZoNOGaUdTY1PqK+oS6ElF6vs4pBdk/aYxFVQQXzcrAqp9m7cl7lb2ubazX+g16k2Q==}
+  /eslint-module-utils/2.7.0:
+    resolution: {integrity: sha512-hqSE88MmHl3ru9SYvDyGrlo0JwROlf9fiEMplEV7j/EAuq9iSlIlyCFbBT6pdULQBSnBYtYKiMLps+hKkyP7Gg==}
     engines: {node: '>=4'}
     dependencies:
       debug: 3.2.7
+      find-up: 2.1.0
       pkg-dir: 2.0.0
     dev: true
 
-  /eslint-plugin-import/2.25.1_eslint@8.0.0:
-    resolution: {integrity: sha512-YiQtY+ehqQXb6dvdrFUVdl3hsTvl+g3aKoTLZFIy1j/mKxjrLcRISI2rA7dNmEReJdr5xzjLld6vJ8pC1bfCfw==}
+  /eslint-plugin-import/2.25.2_eslint@8.0.0:
+    resolution: {integrity: sha512-qCwQr9TYfoBHOFcVGKY9C9unq05uOxxdklmBXLVvcwo68y5Hta6/GzCZEMx2zQiu0woKNEER0LE7ZgaOfBU14g==}
     engines: {node: '>=4'}
     peerDependencies:
       eslint: ^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8
@@ -2217,7 +2218,7 @@ packages:
       doctrine: 2.1.0
       eslint: 8.0.0
       eslint-import-resolver-node: 0.3.6
-      eslint-module-utils: 2.6.2
+      eslint-module-utils: 2.7.0
       has: 1.0.3
       is-core-module: 2.7.0
       is-glob: 4.0.3
