@@ -26,7 +26,7 @@ specifiers:
   reflect-metadata: 0.1.13
   rimraf: 3.0.2
   rxjs: 6.6.7
-  ts-jest: 27.0.6
+  ts-jest: 27.0.7
   typescript: 4.4.4
 
 dependencies:
@@ -57,7 +57,7 @@ devDependencies:
   reflect-metadata: 0.1.13
   rimraf: 3.0.2
   rxjs: 6.6.7
-  ts-jest: 27.0.6_fe15ac987db2e7d4ad38346689ae2fc5
+  ts-jest: 27.0.7_fe15ac987db2e7d4ad38346689ae2fc5
   typescript: 4.4.4
 
 packages:
@@ -5252,8 +5252,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /ts-jest/27.0.6_fe15ac987db2e7d4ad38346689ae2fc5:
-    resolution: {integrity: sha512-XWkEBbrkyUWJdK9FwiCVdBZ7ZmT7sxcKtyVEZNmo7u8eQw6NHmtYEM2WpkX9VfnRI0DjSr6INfEHC9vCFhsFnQ==}
+  /ts-jest/27.0.7_fe15ac987db2e7d4ad38346689ae2fc5:
+    resolution: {integrity: sha512-O41shibMqzdafpuP+CkrOL7ykbmLh+FqQrXEmV9CydQ5JBk0Sj0uAEF5TNNe94fZWKm3yYvWa/IbyV4Yg1zK2Q==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     hasBin: true
     peerDependencies:
