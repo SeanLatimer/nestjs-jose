@@ -18,7 +18,7 @@ specifiers:
   eslint-plugin-import: 2.25.2
   eslint-plugin-prettier: 4.0.0
   husky: 7.0.4
-  is-ci: 3.0.0
+  is-ci: 3.0.1
   jest: 27.3.1
   jose: ^3.12.1
   lint-staged: 11.2.4
@@ -50,7 +50,7 @@ devDependencies:
   eslint-plugin-import: 2.25.2_eslint@8.1.0
   eslint-plugin-prettier: 4.0.0_850528f9ec3c0797b9b19a94a36b5ba3
   husky: 7.0.4
-  is-ci: 3.0.0
+  is-ci: 3.0.1
   jest: 27.3.1
   lint-staged: 11.2.4
   prettier: 2.4.1
@@ -1520,10 +1520,6 @@ packages:
 
   /chardet/0.7.0:
     resolution: {integrity: sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA==}
-    dev: true
-
-  /ci-info/3.1.1:
-    resolution: {integrity: sha512-kdRWLBIJwdsYJWYJFtAFFYxybguqeF91qpZaggjG5Nf8QKdizFG2hjqvaTXbxFIcYbSaD74KpAXv6BSm17DHEQ==}
     dev: true
 
   /ci-info/3.2.0:
@@ -3006,11 +3002,11 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /is-ci/3.0.0:
-    resolution: {integrity: sha512-kDXyttuLeslKAHYL/K28F2YkM3x5jvFPEw3yXbRptXydjD9rpLEz+C5K5iutY9ZiUu6AP41JdvRQwF4Iqs4ZCQ==}
+  /is-ci/3.0.1:
+    resolution: {integrity: sha512-ZYvCgrefwqoQ6yTyYUbQu64HsITZ3NfKX1lzaEYdkTDcfKzzCI/wthRRYKkdjHKFVgNiXKAKm65Zo1pk2as/QQ==}
     hasBin: true
     dependencies:
-      ci-info: 3.1.1
+      ci-info: 3.2.0
     dev: true
 
   /is-core-module/2.7.0:
@@ -3637,7 +3633,7 @@ packages:
       '@types/node': 15.3.0
       chalk: 4.1.1
       graceful-fs: 4.2.6
-      is-ci: 3.0.0
+      is-ci: 3.0.1
       picomatch: 2.2.3
     dev: true
 
