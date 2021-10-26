@@ -21,7 +21,7 @@ specifiers:
   is-ci: 3.0.1
   jest: 27.3.1
   jose: ^3.12.1
-  lint-staged: 11.2.4
+  lint-staged: 11.2.5
   prettier: 2.4.1
   reflect-metadata: 0.1.13
   rimraf: 3.0.2
@@ -52,7 +52,7 @@ devDependencies:
   husky: 7.0.4
   is-ci: 3.0.1
   jest: 27.3.1
-  lint-staged: 11.2.4
+  lint-staged: 11.2.5
   prettier: 2.4.1
   reflect-metadata: 0.1.13
   rimraf: 3.0.2
@@ -3869,8 +3869,8 @@ packages:
     resolution: {integrity: sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=}
     dev: true
 
-  /lint-staged/11.2.4:
-    resolution: {integrity: sha512-aTUqcPDSV05EyKlMT4N5h7tmnevKfAxI3xZkRb+DHfmcFaoCxfxVvpqlLMCVGy3EYle9JYER2nA5zc4eNTkZVQ==}
+  /lint-staged/11.2.5:
+    resolution: {integrity: sha512-bD6FeKyRtMA3jXcNg/J0fuJmwDN8yaoTdqliFcEl8pFTHiP9NYwQCeZwBoZ8FEXx4lj/pli3oFehr86XYvMNEA==}
     hasBin: true
     dependencies:
       cli-truncate: 2.1.0
