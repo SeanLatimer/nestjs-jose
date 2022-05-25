@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@commitlint/cli': 17.0.0
+  '@commitlint/cli': 17.0.1
   '@commitlint/config-conventional': 17.0.0
   '@golevelup/ts-jest': 0.3.3
   '@nestjs/common': 7.6.18
@@ -33,7 +33,7 @@ dependencies:
   jose: 3.12.1
 
 devDependencies:
-  '@commitlint/cli': 17.0.0
+  '@commitlint/cli': 17.0.1
   '@commitlint/config-conventional': 17.0.0
   '@golevelup/ts-jest': 0.3.3
   '@nestjs/common': 7.6.18_rzwuw5ib3hjf6qwl6ncwhvhvxq
@@ -374,8 +374,8 @@ packages:
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
     dev: true
 
-  /@commitlint/cli/17.0.0:
-    resolution: {integrity: sha512-Np6slCdVVG1XwMvwbZrXIzS1INPAD5QmN4L6al04AmCd4nAPU63gxgxC5Mz0Fmx7va23Uvb0S7yEFV1JPhvPUQ==}
+  /@commitlint/cli/17.0.1:
+    resolution: {integrity: sha512-5xT1G5pnynR0tk/ms8Ji7yr9lZCeQs4GLVVtyK/gw20w+enoLTVuRKKY9zg88hy9FoCycc/W8iip2xv3c8payg==}
     engines: {node: '>=v14'}
     hasBin: true
     dependencies:
@@ -384,6 +384,7 @@ packages:
       '@commitlint/load': 17.0.0
       '@commitlint/read': 17.0.0
       '@commitlint/types': 17.0.0
+      execa: 5.1.1
       lodash: 4.17.21
       resolve-from: 5.0.0
       resolve-global: 1.0.0
