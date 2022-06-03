@@ -26,7 +26,7 @@ specifiers:
   reflect-metadata: 0.1.13
   rimraf: 3.0.2
   rxjs: 6.6.7
-  ts-jest: 28.0.3
+  ts-jest: 28.0.4
   typescript: 4.7.2
 
 dependencies:
@@ -57,7 +57,7 @@ devDependencies:
   reflect-metadata: 0.1.13
   rimraf: 3.0.2
   rxjs: 6.6.7
-  ts-jest: 28.0.3_633spfb6behzietlh4jvmi25ru
+  ts-jest: 28.0.4_3idyv6jqzrc23kpntvtlm4rwnq
   typescript: 4.7.2
 
 packages:
@@ -3624,7 +3624,7 @@ packages:
       chalk: 4.1.1
       ci-info: 3.2.0
       graceful-fs: 4.2.9
-      picomatch: 2.2.3
+      picomatch: 2.3.1
     dev: true
 
   /jest-validate/28.1.0:
@@ -3888,7 +3888,7 @@ packages:
     dev: true
 
   /lodash.memoize/4.1.2:
-    resolution: {integrity: sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=}
+    resolution: {integrity: sha512-t7j+NzmgnQzTAYXcsHYLgimltOV1MXHtlOWf6GjL9Kj8GK5FInw5JotxvbOs+IvV1/Dzo04/fCGfLVs7aXb4Ag==}
     dev: true
 
   /lodash.merge/4.6.2:
@@ -4378,11 +4378,6 @@ packages:
   /path-type/4.0.0:
     resolution: {integrity: sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==}
     engines: {node: '>=8'}
-    dev: true
-
-  /picomatch/2.2.3:
-    resolution: {integrity: sha512-KpELjfwcCDUb9PeigTs2mBJzXUPzAuP2oPcA989He8Rte0+YUAjw1JVedDhuTKPkHjSYzMN3npC9luThGYEKdg==}
-    engines: {node: '>=8.6'}
     dev: true
 
   /picomatch/2.3.1:
@@ -5159,13 +5154,12 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /ts-jest/28.0.3_633spfb6behzietlh4jvmi25ru:
-    resolution: {integrity: sha512-HzgbEDQ2KgVtDmpXToqAcKTyGHdHsG23i/iUjfxji92G5eT09S1m9UHZd7csF0Bfgh9txM4JzwHnv7r1waFPlw==}
+  /ts-jest/28.0.4_3idyv6jqzrc23kpntvtlm4rwnq:
+    resolution: {integrity: sha512-S6uRDDdCJBvnZqyGjB4VCnwbQrbgdL8WPeP4jevVSpYsBaeGRQAIS08o3Svav2Ex+oXwLgJ/m7F24TNq62kA1A==}
     engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
     hasBin: true
     peerDependencies:
       '@babel/core': '>=7.0.0-beta.0 <8'
-      '@types/jest': ^27.0.0
       babel-jest: ^28.0.0
       esbuild: '*'
       jest: ^28.0.0
@@ -5173,14 +5167,11 @@ packages:
     peerDependenciesMeta:
       '@babel/core':
         optional: true
-      '@types/jest':
-        optional: true
       babel-jest:
         optional: true
       esbuild:
         optional: true
     dependencies:
-      '@types/jest': 27.5.2
       bs-logger: 0.2.6
       fast-json-stable-stringify: 2.1.0
       jest: 28.1.0
