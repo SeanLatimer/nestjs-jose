@@ -24,7 +24,7 @@
     "cz": "git-cz"
   },
   "dependencies": {
-    "jose": "^3.12.1"
+    "jose": "^4.0.0"
   },
   "peerDependencies": {
     "@nestjs/common": "^7.0.0",
